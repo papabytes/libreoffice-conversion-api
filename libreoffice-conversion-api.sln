@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6405629-F347-4CFB-BB20-4260077DAB42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{95317BB0-19A8-4BAF-A28A-FF239487802F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{585F4C61-B40B-4E53-AEA1-C7A35DB6BE95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{72B33B88-DBD0-4F24-B08B-860717020BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreOffice.Web.Api", "src\Web\LibreOffice.Web.Api\LibreOffice.Web.Api.csproj", "{299F00F6-8C04-4F98-9A07-C40E792BD5D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreOffice.Services.Api", "src\Services\LibreOffice.Services.Api\LibreOffice.Services.Api.csproj", "{9EC1CCDB-9958-43B5-9BBC-A8D63BFA29C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreOffice.Packages.Api", "src\Packages\LibreOffice.Packages.Api\LibreOffice.Packages.Api.csproj", "{6359697C-B22C-4AE0-909D-DCD3F506610B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299F00F6-8C04-4F98-9A07-C40E792BD5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299F00F6-8C04-4F98-9A07-C40E792BD5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299F00F6-8C04-4F98-9A07-C40E792BD5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299F00F6-8C04-4F98-9A07-C40E792BD5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC1CCDB-9958-43B5-9BBC-A8D63BFA29C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC1CCDB-9958-43B5-9BBC-A8D63BFA29C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC1CCDB-9958-43B5-9BBC-A8D63BFA29C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC1CCDB-9958-43B5-9BBC-A8D63BFA29C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6359697C-B22C-4AE0-909D-DCD3F506610B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6359697C-B22C-4AE0-909D-DCD3F506610B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6359697C-B22C-4AE0-909D-DCD3F506610B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6359697C-B22C-4AE0-909D-DCD3F506610B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95317BB0-19A8-4BAF-A28A-FF239487802F} = {C6405629-F347-4CFB-BB20-4260077DAB42}
+		{585F4C61-B40B-4E53-AEA1-C7A35DB6BE95} = {C6405629-F347-4CFB-BB20-4260077DAB42}
+		{72B33B88-DBD0-4F24-B08B-860717020BDA} = {C6405629-F347-4CFB-BB20-4260077DAB42}
+		{299F00F6-8C04-4F98-9A07-C40E792BD5D7} = {95317BB0-19A8-4BAF-A28A-FF239487802F}
+		{9EC1CCDB-9958-43B5-9BBC-A8D63BFA29C9} = {585F4C61-B40B-4E53-AEA1-C7A35DB6BE95}
+		{6359697C-B22C-4AE0-909D-DCD3F506610B} = {72B33B88-DBD0-4F24-B08B-860717020BDA}
+	EndGlobalSection
+EndGlobal

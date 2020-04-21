@@ -1,0 +1,1 @@
+docker build -t libreoffice-api:latest ..\..\.. -f .\Dockerfile
